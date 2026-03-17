@@ -3,7 +3,7 @@ document.getElementById('locationForm').addEventListener('submit', function (e) 
     const location = document.getElementById('locationInput').value;
     getWeather(location);
 });
-//HEY 
+
 async function getWeather(location) {
     const url = `https://www.metaweather.com/api/location/search/?query=${location}`;
 
