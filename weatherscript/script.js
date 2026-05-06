@@ -2,7 +2,7 @@ document.getElementById('locationForm').addEventListener('submit', function (e) 
     e.preventDefault();
     const location = document.getElementById('locationInput').value;
     getWeather(location);
-});//hey i am working here buddy
+});//hey i am working here buddy yes kjuhij
 async function getWeather(location) {
     const url = `https://www.metaweather.com/api/location/search/?query=${location}`;
 
