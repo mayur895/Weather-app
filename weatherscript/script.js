@@ -2,7 +2,7 @@ document.getElementById('locationForm').addEventListener('submit', function (e) 
     e.preventDefault();
     const location = document.getElementById('locationInput').value;
     getWeather(location);
-});//hey i am working here buddy yes kjuhij mbhmhmhbm bmmbm bm fnvnfvbcvnvnvnn n n ndgbndn ddd
+});//hey i am working here buddy yes kjuhij mbhmhmhbm bmmbm bm fnvnfvbcvnvnvnn n n ndgbndn ddd hjj
 async function getWeather(location) {
     const url = `https://www.metaweather.com/api/location/search/?query=${location}`;
 
